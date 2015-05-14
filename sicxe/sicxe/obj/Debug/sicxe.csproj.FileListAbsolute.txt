@@ -1,0 +1,15 @@
+C:\Users\Ruzhyo\Documents\Visual Studio 2008\Projects\sicxe\sicxe\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ruzhyo\Documents\Visual Studio 2008\Projects\sicxe\sicxe\bin\Debug\sicxe.exe
+C:\Users\Ruzhyo\Documents\Visual Studio 2008\Projects\sicxe\sicxe\bin\Debug\sicxe.pdb
+C:\Users\Ruzhyo\Documents\Visual Studio 2008\Projects\sicxe\sicxe\obj\Debug\sicxe.exe
+C:\Users\Ruzhyo\Documents\Visual Studio 2008\Projects\sicxe\sicxe\obj\Debug\sicxe.pdb
+F:\sicxe\sicxe\obj\Debug\sicxe.exe
+F:\sicxe\sicxe\obj\Debug\sicxe.pdb
+H:\sicxe\sicxe\obj\Debug\sicxe.exe
+H:\sicxe\sicxe\obj\Debug\sicxe.pdb
+F:\sicxe\sicxe\bin\Debug\sicxe.exe
+F:\sicxe\sicxe\bin\Debug\sicxe.pdb
+F:\sicxe\sicxe\obj\Debug\ResolveAssemblyReference.cache
+H:\sicxe\sicxe\bin\Debug\sicxe.exe
+H:\sicxe\sicxe\bin\Debug\sicxe.pdb
+H:\sicxe\sicxe\obj\Debug\ResolveAssemblyReference.cache

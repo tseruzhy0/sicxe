@@ -1,0 +1,51 @@
+001000    COPY      START     1000      
+001000    FIRST     STL       RETADR    141033
+001003    CLOOP     JSUB      RDREC     482039
+001006              LDA       LENGTH    001036
+001009              COMP      ZERO      281030
+00100C              JEQ       ENDFIL    301015
+00100F              JSUB      WRREC     482061
+001012              J         CLOOP     3C1003
+001015    ENDFIL    LDA       EOF       00102A
+001018              STA       BUFFER    0C1039
+00101B              LDA       THREE     00102D
+00101E              STA       LENGTH    0C1036
+001021              JSUB      WRREC     482061
+001024              LDL       RETADR    081033
+001027              RSUB                4C0000
+00102A    EOF       BYTE      C'EOF'    454F46
+00102D    THREE     WORD      3         000003
+001030    ZERO      WORD      0         000000
+001033    RETADR    RESW      1         
+001036    LENGTH    RESW      1         
+002039    BUFFER    RESB      4096      
+.
+.      SUBROUTINE TO READ RECORD INTO BUFFER
+.
+002039    RDREC     LDX       ZERO      041030
+00203C              LDA       ZERO      001030
+00203F    RLOOP     TD        INPUT     E0205D
+002042              JEQ       RLOOP     30203F
+002045              RD        INPUT     D8205D
+002048              COMP      ZERO      281030
+00204B              JEQ       EXIT      302057
+00204E              STCH      BUFFER,X  549039
+002051              TIX       MAXLEN    2C205E
+002054              JLT       RLOOP     38203F
+002057    EXIT      STX       LENGTH    101036
+00205A              RSUB                4C0000
+00205D    INPUT     BYTE      X'F1'     F1
+00205E    MAXLEN    WORD      4096      001000
+.
+.      SUBROUTINE TO WRITE RECORD FROM BUFFER
+.
+002061    WRREC     LDX       ZERO      041030
+002064    WLOOP     TD        OUTPUT    E02079
+002067              JEQ       WLOOP     302064
+00206A              LDCH      BUFFER,X  509039
+00206D              WD        OUTPUT    DC2079
+002070              TIX       LENGTH    2C1036
+002073              JLT       WLOOP     382064
+002076              RSUB                4C0000
+002079    OUTPUT    BYTE      X'05'     05
+                    END       FIRST     

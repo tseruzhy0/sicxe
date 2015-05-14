@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="sicxe">
+</Property><Property Name="Solution File" Value="F:\sicxe\sicxe.sln">
+</Property><Property Name="User Options File" Value="F:\sicxe\sicxe.suo">
+</Property><Property Name="Date" Value="Monday, June 28, 2010">
+</Property><Property Name="Time" Value="14:00 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="sicxe.sln" Description="File successfully backed up as F:\sicxe\Backup\sicxe.sln">
+</Event><Event ErrorLevel="0" Project="" Source="sicxe.suo" Description="File successfully backed up as F:\sicxe\Backup\sicxe.suo">
+</Event><Event ErrorLevel="0" Project="sicxe" Source="sicxe\sicxe.csproj" Description="Project file successfully backed up as F:\sicxe\Backup\sicxe\sicxe.csproj">
+</Event><Event ErrorLevel="0" Project="sicxe" Source="sicxe\Program.cs" Description="File successfully backed up as F:\sicxe\Backup\sicxe\Program.cs">
+</Event><Event ErrorLevel="0" Project="sicxe" Source="sicxe\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\sicxe\Backup\sicxe\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="sicxe" Source="sicxe\sicxe.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="sicxe" Source="sicxe\sicxe.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="sicxe.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="sicxe.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="sicxe" Source="sicxe\sicxe.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
